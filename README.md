@@ -1,4 +1,4 @@
-# Lab 3: Git
+# Lab 3: Git (With Change)
 
 ## Prerequisites
 - Github account
