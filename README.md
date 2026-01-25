@@ -1,4 +1,4 @@
-# Lab 3: Git With Change Version 2
+# Lab 3: Git With Change Version 3
 
 ## Prerequisites
 - Github account
