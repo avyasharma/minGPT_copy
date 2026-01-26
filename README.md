@@ -1,4 +1,4 @@
-
+Lab3 note: this line is from main branch.
 # minGPT
 
 ![mingpt](mingpt.jpg)
