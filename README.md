@@ -1,6 +1,7 @@
 Lab3 note: this line is from merge-conflict branch.
 Lab3 note: this line is from main branch.
 Extra: conflict resolution verified.
+Update for PR
 # minGPT
 
 ![mingpt](mingpt.jpg)
