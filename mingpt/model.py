@@ -109,6 +109,8 @@ class GPT(nn.Module):
         # dropout hyperparameters
         C.embd_pdrop = 0.1
         C.resid_pdrop = 0.1
+        #Merge conflict resolved 
+        # Hyperparameter changed
         C.attn_pdrop = 0.1
         return C
 
