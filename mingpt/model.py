@@ -9,7 +9,11 @@ https://github.com/huggingface/transformers/blob/main/src/transformers/models/gp
 """
 
 #References from GPT2 Tensorflow were used in this code file. Making this change to test merge conflict.
+<<<<<<< HEAD
 #changing the files to cause conflict in main.
+=======
+#Changing this files
+>>>>>>> a07de42 (committing with conflict)
 import math
 
 import torch
