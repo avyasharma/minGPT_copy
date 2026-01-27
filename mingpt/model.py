@@ -109,7 +109,7 @@ class GPT(nn.Module):
         # dropout hyperparameters
         C.embd_pdrop = 0.1
         C.resid_pdrop = 0.1
-        C.attn_pdrop = 0.1
+        C.attn_pdrop = 0.2
         return C
 
     def __init__(self, config):
