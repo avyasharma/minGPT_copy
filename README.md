@@ -1,6 +1,9 @@
-# this is part of Lab 3 in my MLIP class!
 
-# minGPT - A PyTorch re-implementation of [GPT] (https://github.com/openai/gpt-2), both training and inference
+
+# minGPT - A simple fun PyTorch re-implementation of [GPT] (https://github.com/openai/gpt-2), both training and inference!
+
+
+# exercise 1 complete.
 
 ![mingpt](mingpt.jpg)
 
