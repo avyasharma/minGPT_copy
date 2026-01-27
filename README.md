@@ -74,6 +74,7 @@ python -m unittest discover tests
 - proper logging instead of print statement amateur hour haha
 - i probably should have a requirements.txt file...
 - it should be possible to load in many other model weights other than just gpt2-\*
+- refactor the model definition
 
 ### References
 
