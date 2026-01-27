@@ -9,7 +9,7 @@ import numpy as np
 import torch
 
 # -----------------------------------------------------------------------------
-
+# Helper functions for model configuration and training utilities
 def set_seed(seed):
     """ Initialize random number seeds for all libraries to ensure reproducibility."""
     random.seed(seed)
