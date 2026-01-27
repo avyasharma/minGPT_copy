@@ -1,3 +1,4 @@
+# this is part of Lab 3 in my MLIP class!
 
 # minGPT - A PyTorch re-implementation of [GPT] (https://github.com/openai/gpt-2), both training and inference
 
