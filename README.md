@@ -57,7 +57,7 @@ See `demo.ipynb` for a more concrete example.
 
 ### Unit tests
 
-Run Unit tests command:
+Here's the command to run unittests:
 
 ```
 python -m unittest discover tests
