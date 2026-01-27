@@ -24,6 +24,13 @@ cd minGPT
 pip install -e .
 ```
 
+Alternatively, use to use ssh version
+```
+git@github.com:mlip-cmu/minGPT_copy.git
+cd minGPT
+pip install -e.
+```
+
 ### Usage
 
 Here's how you'd instantiate a GPT-2 (124M param version):
