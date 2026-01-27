@@ -161,6 +161,7 @@ class GPT(nn.Module):
         print("number of parameters: %.2fM" % (n_params/1e6,))
 
     def _init_weights(self, module):
+        """ initialize the weights of the model """
         if isinstance(module, nn.Linear):
             torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
             if module.bias is not None:
@@ -258,6 +259,14 @@ class GPT(nn.Module):
         return optimizer
 
     def forward(self, idx, targets=None):
+        """
+        forward pass for the GPT model
+        idx: (b, t) - the input sequence of token indices
+        targets: (b, t) - the target sequence of token indices
+        returns:
+        - logits: (b, t, vocab_size) - the logits for the next token
+        - loss: (1,) - the loss if targets are provided
+        """
         device = idx.device
         b, t = idx.size()
         assert t <= self.block_size, f"Cannot forward sequence of length {t}, block size is only {self.block_size}"
