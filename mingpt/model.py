@@ -161,6 +161,7 @@ class GPT(nn.Module):
         print("number of parameters: %.2fM" % (n_params/1e6,))
 
     def _init_weights(self, module):
+        """ initialize the weights of the model """
         if isinstance(module, nn.Linear):
             torch.nn.init.normal_(module.weight, mean=0.0, std=0.02)
             if module.bias is not None:
