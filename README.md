@@ -1,6 +1,6 @@
-# this is part of Lab 3 in my MLIP class!
 
-# minGPT
+
+# minGPT: A simple fun re-implementation of GPT!
 
 ![mingpt](mingpt.jpg)
 
