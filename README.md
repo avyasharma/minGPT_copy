@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT hahah i DONT love all that she mentioned
 
 ![mingpt](mingpt.jpg)
 
