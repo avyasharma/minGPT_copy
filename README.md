@@ -1,3 +1,4 @@
+# this is part of Lab 3 in my MLIP class!
 
 # minGPT
 
