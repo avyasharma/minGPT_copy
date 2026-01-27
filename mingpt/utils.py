@@ -11,6 +11,7 @@ import torch
 # -----------------------------------------------------------------------------
 
 def set_seed(seed):
+    """Set random seeds for reproducibility across random, numpy, and torch."""
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
