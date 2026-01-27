@@ -110,6 +110,7 @@ class GPT(nn.Module):
         C.embd_pdrop = 0.1
         C.resid_pdrop = 0.1
         #Merge conflict resolved 
+        # Hyperparameter changed
         C.attn_pdrop = 0.1
         return C
 
