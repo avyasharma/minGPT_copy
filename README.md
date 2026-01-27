@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT: I Love LLMs and the Doors and music!!
 
 ![mingpt](mingpt.jpg)
 
