@@ -43,6 +43,7 @@ class CfgNode:
     def _str_helper(self, indent):
         """ need to have a helper to support nested indentation for pretty printing """
         parts = []
+        print("Inside str helper function...")
         for k, v in self.__dict__.items():
             if isinstance(v, CfgNode):
                 parts.append("%s:\n" % k)

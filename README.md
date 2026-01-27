@@ -53,11 +53,25 @@ trainer = Trainer(train_config, model, train_dataset)
 trainer.run()
 ```
 
-See `demo.ipynb` for a more concrete example.
+Try out our quick start section or checkout `demo.ipynb` for a more concrete example.
+
+---
+
+### Quick Start
+
+After installing, you can quickly test the setup by running:
+
+```
+python demo.ipynb
+```
+
+This notebook demonstrates minimal usage of the GPT model and Trainer.
+
+---
 
 ### Unit tests
 
-Coverage is not super amazing just yet but:
+Coverage is not super amazing just yet but you may run local tests using the following commands:
 
 ```
 python -m unittest discover tests
