@@ -2,6 +2,8 @@
 # minGPT
 
 I made a breaking change on main.
+I made a change to the README file of this repo. 
+Secondary change belonging to the merge commit.
 
 ![mingpt](mingpt.jpg)
 
