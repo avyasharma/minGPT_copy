@@ -18,7 +18,9 @@ def set_seed(seed):
     torch.cuda.manual_seed_all(seed)
 
 def setup_logging(config):
-    """ monotonous bookkeeping """
+    """ 
+     Initialize logging infrastructure by creating a working directory and saving configurations.
+     Creates a work directory and saves the command line arguments and configuration to files for experiment tracking and reproducibility."""
     work_dir = config.system.work_dir
     # create the work directory if it doesn't already exist
     os.makedirs(work_dir, exist_ok=True)
