@@ -8,6 +8,8 @@ https://github.com/openai/gpt-2/blob/master/src/model.py
 https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py
 """
 
+#References from GPT2 Tensorflow were used in this code file. Making this change to test merge conflict.
+
 import math
 
 import torch
