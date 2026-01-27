@@ -258,6 +258,7 @@ class GPT(nn.Module):
         return optimizer
 
     def forward(self, idx, targets=None):
+        """forward pass for the GPT model"""
         device = idx.device
         b, t = idx.size()
         assert t <= self.block_size, f"Cannot forward sequence of length {t}, block size is only {self.block_size}"
