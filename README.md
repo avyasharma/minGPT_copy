@@ -1,5 +1,5 @@
 
-# minGPT hahah i DONT love all that she mentioned
+# minGPT: I Love LLMs and the Doors and music!!
 
 ![mingpt](mingpt.jpg)
 
@@ -145,3 +145,6 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+
+#Amending!!
