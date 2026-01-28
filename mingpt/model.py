@@ -10,7 +10,7 @@ https://github.com/huggingface/transformers/blob/main/src/transformers/models/gp
 
 import math
 
-import torch as tt
+import torch
 import torch.nn as nn
 from torch.nn import functional as F
 
