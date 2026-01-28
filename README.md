@@ -1,3 +1,5 @@
+# Lab 3: Git
+The goal of this lab is to understand how Git works using the minGPT_copy repository.
 
 # minGPT
 
