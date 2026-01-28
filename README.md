@@ -142,6 +142,9 @@ Papers + some implementation notes:
 - iGPT-S lr 0.003
 - No dropout is used.
 
+## Current usage:
+For this lab, this repository is being used to denonstrate skills in git.
+
 ### License
 
 MIT
