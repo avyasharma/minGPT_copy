@@ -24,7 +24,7 @@ cd minGPT
 pip install -e .
 ```
 
-### Usage
+### The Usage
 
 Here's how you'd instantiate a GPT-2 (124M param version):
 
@@ -101,6 +101,8 @@ Papers + some implementation notes:
 - For finetuning: We add dropout to the classifier with a rate of 0.1. learning rate of 6.25e-5 and a batchsize of 32. 3 epochs. We use a linear learning rate decay schedule with warmup over 0.2% of training. λ was set to 0.5.
 - GPT-1 model is 12 layers and d_model 768, ~117M params
 
+
+
 #### Language Models are Unsupervised Multitask Learners (GPT-2)
 
 - LayerNorm was moved to the input of each sub-block, similar to a pre-activation residual network
@@ -125,6 +127,8 @@ Papers + some implementation notes:
 - Linear LR warmup over the first 375 million tokens. Then use cosine decay for learning rate down to 10% of its value, over 260 billion tokens.
 - gradually increase the batch size linearly from a small value (32k tokens) to the full value over the first 4-12 billion tokens of training, depending on the model size.
 - full 2048-sized time context window is always used, with a special END OF DOCUMENT token delimiter
+
+
 
 #### Generative Pretraining from Pixels (Image GPT)
 
