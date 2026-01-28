@@ -1,7 +1,11 @@
 
 # minGPT
 
+This is sample text to add to the README.md file for Lab3 in AI Engineering. 10:47 PM. This is a sample message that has no meaning. Thanks!
+
 This is the new text added to the README.md file from the main branch to cause a merge conflict. 11:00 PM.  
+
+This is the third additional code change. 11:25 PM. 
 
 ![mingpt](mingpt.jpg)
 
