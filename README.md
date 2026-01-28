@@ -1,5 +1,7 @@
 
 # minGPT
+### This is for Exercise 2
+
 ### This is my combined small change to the README
 I fixed a small typo above
 ![mingpt](mingpt.jpg)
