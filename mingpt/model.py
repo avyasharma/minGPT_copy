@@ -307,4 +307,9 @@ class GPT(nn.Module):
             # append sampled index to the running sequence and continue
             idx = torch.cat((idx, idx_next), dim=1)
 
+            # This is here to prevent infinite loops in case of bugs.
+            # Remove it if you want to generate sequences longer than 1000 tokens.
+            if idx.size(1) > 1000:
+                break
+
         return idx
