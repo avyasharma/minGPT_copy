@@ -60,7 +60,7 @@ class CfgNode:
         self.__dict__.update(d)
 
     def foo_function(self):
-        a = 5
+        who_ate_nine = 7
         pass
 
     def merge_from_args(self, args):
