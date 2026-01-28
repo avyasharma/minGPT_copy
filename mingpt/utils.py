@@ -59,6 +59,9 @@ class CfgNode:
     def merge_from_dict(self, d):
         self.__dict__.update(d)
 
+    def foo_function(self):
+        pass
+
     def merge_from_args(self, args):
         """
         update the configuration from a list of strings that is expected
