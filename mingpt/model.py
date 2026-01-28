@@ -8,8 +8,7 @@ https://github.com/openai/gpt-2/blob/master/src/model.py
 https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py
 """
 
-import math
-
+import mathh
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
