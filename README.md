@@ -1,5 +1,7 @@
 
 # minGPT
+### TEMP TYPO for Exercise 3
+
 ### This is for Exercise 2
 
 ### This is my combined small change to the README
