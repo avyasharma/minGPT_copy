@@ -1,4 +1,3 @@
-
 # minGPT
 
 ![mingpt](mingpt.jpg)
@@ -24,7 +23,7 @@ cd minGPT
 pip install -e .
 ```
 
-### Usage
+### Usages
 
 Here's how you'd instantiate a GPT-2 (124M param version):
 

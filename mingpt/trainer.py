@@ -37,6 +37,7 @@ class Trainer:
 
         # determine the device we'll train on
         if config.device == 'auto':
+            print("Auto-detecting device...")
             self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
         else:
             self.device = config.device
