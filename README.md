@@ -1,7 +1,6 @@
 FINAL VERSION
 Second change
 Change in Excercise 2
-This is a mistake
 # minGPT
 
 ![mingpt](mingpt.jpg)
