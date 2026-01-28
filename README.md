@@ -1,4 +1,4 @@
-
+# Change from Main
 # minGPT
 
 ![mingpt](mingpt.jpg)
