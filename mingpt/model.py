@@ -18,6 +18,8 @@ from mingpt.utils import CfgNode as CN
 
 # -----------------------------------------------------------------------------
 
+print("MLIP is cool.")
+
 class NewGELU(nn.Module):
     """
     Implementation of the GELU activation function currently in Google BERT repo (identical to OpenAI GPT).
