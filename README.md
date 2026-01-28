@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT - A Minimal GPT Implementation
 
 ![mingpt](mingpt.jpg)
 
