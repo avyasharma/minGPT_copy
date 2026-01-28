@@ -18,11 +18,8 @@ from mingpt.utils import CfgNode as CN
 
 # -----------------------------------------------------------------------------
 
-<<<<<<< HEAD
 print("MLIP is cool!!!!!")
-=======
-print("MLIP is cool.")
->>>>>>> merge-conflict
+print("Another small change")
 
 class NewGELU(nn.Module):
     """
