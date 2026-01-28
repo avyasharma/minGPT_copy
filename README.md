@@ -1,3 +1,11 @@
+# Lab 3: Git
+The goal of this lab is to learn Git commands, branching, and merge conflict resolution using the minGPT_copy repository. 
+There are 3 exercises included in this lab:
+1. Creating and resolving a merge conflict
+2. Create a pull request to the original repository
+3. Safely rolling ack changes using git revert
+
+See below for the introduction of minGPT.
 
 # minGPT
 
