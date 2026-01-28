@@ -1,3 +1,5 @@
+# Lab 3: Git
+The goal of this lab is to learn Git commands and collaboration.
 
 # minGPT
 
