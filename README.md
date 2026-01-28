@@ -1,5 +1,5 @@
 # Lab 3: Git
-The goal of this lab is to learn Git commands and collaboration.
+The goal of this lab is to learn Git commands, branching, and merge conflict resolution using the minGPT_copy repository.
 
 # minGPT
 
