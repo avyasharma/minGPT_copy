@@ -2,6 +2,8 @@
 # minGPT - A Minimal GPT Project
 
 > A lightweight implementation of GPT for educational purposes.
+>
+> Maintained by Yudi Guo for MLIP Lab 3.
 
 ![mingpt](mingpt.jpg)
 
