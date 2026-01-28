@@ -1,5 +1,6 @@
 
 # minGPT
+Merge conflict branch
 
 ![mingpt](mingpt.jpg)
 
