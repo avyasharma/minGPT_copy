@@ -1,4 +1,5 @@
-This is a different change.
+FINAL VERSION
+Second change
 # minGPT
 
 ![mingpt](mingpt.jpg)
