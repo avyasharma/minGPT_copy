@@ -311,4 +311,9 @@ class GPT(nn.Module):
             if idx.size(1) > 1000:
                 break
 
+            # This is here to prevent infinite loops in case of bugs.
+            # Remove it if you want to generate sequences longer than 1000 tokens.
+            if idx.size(1) > 1000:
+                break
+
         return idx
