@@ -8,6 +8,8 @@ from ast import literal_eval
 import numpy as np
 import torch
 
+#Small additional code change as asked to implement in the Lab03 exercise
+
 # -----------------------------------------------------------------------------
 
 def set_seed(seed):
