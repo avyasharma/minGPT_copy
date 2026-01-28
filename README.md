@@ -143,7 +143,7 @@ Papers + some implementation notes:
 - No dropout is used.
 
 # For this lab
-This repository is being used for this lab to showcase git usage through different scenarios. git add
+This repository is being used for this lab to showcase git usage through different scenarios.
 
 ### License
 
