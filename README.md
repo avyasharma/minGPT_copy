@@ -5,7 +5,6 @@
 
 This repository is used for lab exercises around Git workflows.
 Pull request exercise: add a small README tweak for review.
-TEMP DEBUG: remove me after testing.
 
 A PyTorch re-implementation of [GPT](https://github.com/openai/gpt-2), both training and inference. minGPT keeps the codebase small, clean, interpretable and educational, since many current GPT implementations are a bit sprawling. GPT is not a complicated model and this implementation is appropriately about 300 lines of code (see [mingpt/model.py](mingpt/model.py)). All that's going on is that a sequence of indices feeds into a [Transformer](https://arxiv.org/abs/1706.03762), and a probability distribution over the next index in the sequence comes out. The majority of the complexity is just being clever with batching (both across examples and over sequence length) for efficiency.
 
