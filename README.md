@@ -1,5 +1,7 @@
 
-# minGPT Project
+# minGPT - A Minimal GPT Project
+
+> A lightweight implementation of GPT for educational purposes.
 
 ![mingpt](mingpt.jpg)
 
