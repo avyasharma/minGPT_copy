@@ -42,7 +42,7 @@ class Trainer:
         else:
             self.device = config.device
         self.model = self.model.to(self.device)
-        print("running on device", self.device)
+        print("running on device...", self.device)
 
         # variables that will be assigned to trainer class later for logging and etc
         self.iter_num = 0
