@@ -1,3 +1,4 @@
+Name: Joanna Chang
 
 # minGPT
 
