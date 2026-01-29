@@ -4,20 +4,27 @@ import sys
 import json
 import random
 from ast import literal_eval
+from typing import Any, Dict, List
 
 import numpy as np
 import torch
 
 # -----------------------------------------------------------------------------
 
-def set_seed(seed):
+def set_seed(seed: int) -> None:
+    """
+    Set random seed for reproducibility across random, numpy, and pytorch.
+    """
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
 
 def setup_logging(config):
-    """ monotonous bookkeeping """
+    """ 
+    monotonous bookkeeping
+    create the work directory, log the args and config there
+        """
     work_dir = config.system.work_dir
     # create the work directory if it doesn't already exist
     os.makedirs(work_dir, exist_ok=True)
