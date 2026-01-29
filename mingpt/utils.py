@@ -11,10 +11,26 @@ import torch
 # -----------------------------------------------------------------------------
 
 def set_seed(seed):
+    """
+    This is a simple utility function that sets the random seed
+    """
     random.seed(seed)
     np.random.seed(seed)
+    os.environ["PYTHONHASHSEED"] = str(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+    if torch.cuda.is_available():
+        torch.cuda.manual_seed_all(seed)
+
+def set_deterministic(deterministic=True):
+    """
+    Best-effort settings for deterministic behavior in torch.
+
+    This is opt-in because it can have a performance impact.
+    """
+    torch.backends.cudnn.deterministic = bool(deterministic)
+    torch.backends.cudnn.benchmark = not bool(deterministic)
+    if hasattr(torch, "use_deterministic_algorithms"):
+        torch.use_deterministic_algorithms(bool(deterministic))
 
 def setup_logging(config):
     """ monotonous bookkeeping """
