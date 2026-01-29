@@ -1,4 +1,4 @@
-
+Lab 3 Exercise 2: Pull Request Demo
 # minGPT
 
 ![mingpt](mingpt.jpg)
