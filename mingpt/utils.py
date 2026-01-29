@@ -12,8 +12,15 @@ import torch
 
 def set_seed(seed):
     """
-    This is a simple utility function that sets the random seed
+    Set RNG seeds for python, numpy, and torch.
+
+    Note: exact reproducibility across machines/GPUs may still require additional
+    environment settings (e.g. CUDA/cuDNN determinism), but this covers the
+    common case for this codebase.
     """
+    if seed is None:
+        return
+    seed = int(seed)
     random.seed(seed)
     np.random.seed(seed)
     os.environ["PYTHONHASHSEED"] = str(seed)
