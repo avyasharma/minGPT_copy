@@ -8,7 +8,7 @@ import numpy as np
 import torch
 
 # -----------------------------------------------------------------------------
-# conflict comment in main branch
+# merged comment from feature branch to main branch
 
 
 def set_seed(seed):
