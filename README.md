@@ -1,4 +1,5 @@
-- Main Branch
+- Main Branch.
+- Feature Branch
 # minGPT
 
 ![mingpt](mingpt.jpg)
