@@ -1,6 +1,6 @@
 
 # minGPT
-https://github.com/mlip-cmu/minGPT_copy/pull/52
+
 ![mingpt](mingpt.jpg)
 I love this lab.
 This repository is used for CMU AIE Lab coursework.
