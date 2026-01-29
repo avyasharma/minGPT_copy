@@ -100,8 +100,6 @@ Papers + some implementation notes:
 - For finetuning: We add dropout to the classifier with a rate of 0.1. learning rate of 6.25e-5 and a batchsize of 32. 3 epochs. We use a linear learning rate decay schedule with warmup over 0.2% of training. λ was set to 0.5.
 - GPT-1 model is 12 layers and d_model 768, ~117M params
 
-
-
 #### Language Models are Unsupervised Multitask Learners (GPT-2)
 
 - LayerNorm was moved to the input of each sub-block, similar to a pre-activation residual network
@@ -127,8 +125,6 @@ Papers + some implementation notes:
 - gradually increase the batch size linearly from a small value (32k tokens) to the full value over the first 4-12 billion tokens of training, depending on the model size.
 - full 2048-sized time context window is always used, with a special END OF DOCUMENT token delimiter
 
-
-
 #### Generative Pretraining from Pixels (Image GPT)
 
 - When working with images, we pick the identity permutation πi = i for 1 ≤ i ≤ n, also known as raster order.
@@ -144,6 +140,8 @@ Papers + some implementation notes:
 - We did not use weight decay because applying a small weight decay of 0.01 did not change representation quality.
 - iGPT-S lr 0.003
 - No dropout is used.
+
+# Pull Request Testing
 
 ### License
 
