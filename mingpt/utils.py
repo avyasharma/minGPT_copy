@@ -9,6 +9,8 @@ import numpy as np
 import torch
 
 # -----------------------------------------------------------------------------
+# Utilities for seeding, logging, and configuration handling.
+# -----------------------------------------------------------------------------
 
 def set_seed(seed):
     random.seed(seed)
