@@ -1,5 +1,7 @@
 
-# minGPT
+# MeowMeowILoveCats
+
+# Please follow @the_infinite_coco on Instagram!
 
 ![mingpt](mingpt.jpg)
 
