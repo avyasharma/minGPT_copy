@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT (merge-conflict)
 
 ![mingpt](mingpt.jpg)
 
