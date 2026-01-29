@@ -1,3 +1,6 @@
+Name: Joanna Chang
+AndrewID: joannac2
+Course: MLiP Spring 26
 
 # minGPT
 
