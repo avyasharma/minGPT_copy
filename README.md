@@ -1,5 +1,6 @@
 
-# minGPT
+# minGPT with merged modifications and a tiny additional change
+now with the additional modification for part 2
 
 ![mingpt](mingpt.jpg)
 
