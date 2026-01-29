@@ -1,7 +1,8 @@
 
 
 
-Lab note: change from merge-conflict branch
+Lab note: conflicting change from merge-conflict branch
+
 
 # minGPT
 
