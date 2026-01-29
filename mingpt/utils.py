@@ -9,7 +9,8 @@ import numpy as np
 import torch
 
 # -----------------------------------------------------------------------------
-# This file contains utilities for seeding, logging, and config handling
+# Utilities for reproducibility (seeding), experiment logging, and lightweight
+# configuration management (parsing/merging and pretty-printing configs).
 # -----------------------------------------------------------------------------
 
 def set_seed(seed):
