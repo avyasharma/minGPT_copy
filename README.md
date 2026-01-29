@@ -1,6 +1,6 @@
 
 # minGPT
-This is Ryan's (ryanw3) Lab 3 Checkpt 1! # I want TacoBell
+This is Ryan's (ryanw3) Lab 3 Checkpt 1! # I want actually want Layne's 3 piece tenders
 
 ![mingpt](mingpt.jpg)
 
