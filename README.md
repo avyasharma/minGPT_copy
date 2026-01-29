@@ -142,6 +142,11 @@ Papers + some implementation notes:
 - iGPT-S lr 0.003
 - No dropout is used.
 
+This line is completely different for main branch.
+Updating this line for lab 3.
+Final version Amend Test.
+Test Fork.
+
 ### License
 
 MIT
