@@ -143,6 +143,8 @@ Papers + some implementation notes:
 - No dropout is used.
 
 This line is completely different for main branch.
+Updating this line for lab 3.
+Final version Amend Test.
 
 ### License
 
