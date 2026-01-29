@@ -145,3 +145,13 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+
+
+#Conflict change on main (RESOLVED)
+
+#new change on main
+
+#Exercise 2
+
+
