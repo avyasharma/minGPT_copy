@@ -146,4 +146,4 @@ Papers + some implementation notes:
 
 MIT
 
-##Lab 3 note: change made on MAIN branch.
+Lab 3 note: conflict resolved by keeping a single coherent line.
