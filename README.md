@@ -147,3 +147,5 @@ Papers + some implementation notes:
 MIT
 
 Lab 3 note: conflict resolved by keeping a single coherent line.
+
+Lab 3 note: merge commit was amended to include an extra small change.
