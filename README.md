@@ -138,9 +138,9 @@ Papers + some implementation notes:
 - When pre-training iGPT-XL, we use a batch size of 64 and train for 2M iterations, and for all other models we use a batch size of 128 and train for 1M iterations.
 - Adam with β1 = 0.9 and β2 = 0.95
 - The learning rate is warmed up for one epoch, and then decays to 0
-- We did not use weight decay because applying a small weight decay of 0.01 did not change representation quality.
+- We did not use weight decay, as experiments with weight decay of 0.01 showed no improvement in representation quality.
 - iGPT-S lr 0.003
-- No dropout is used.
+- No dropout is used here at all.
 
 ### License
 
