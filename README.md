@@ -1,5 +1,6 @@
 
 # minGPT (merged conflict resolved)
+# (merge conflict resolved in lab exercise)
 
 ![mingpt](mingpt.jpg)
 
@@ -145,3 +146,5 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+# Lab 3 PR test line
