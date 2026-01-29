@@ -4,6 +4,7 @@ Lab note: resolved merge conflict between main and merge-conflict branches
 
 (Post-merge amend)
 
+PR test change for Lab 3
 
 # minGPT
 
