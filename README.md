@@ -1,4 +1,6 @@
-
+FINAL VERSION
+Second change
+Change in Excercise 2
 # minGPT
 
 ![mingpt](mingpt.jpg)
