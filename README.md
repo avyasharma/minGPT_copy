@@ -55,6 +55,8 @@ trainer.run()
 
 See `demo.ipynb` for a more concrete example.
 
+Tip: for reproducibility helpers (seeding / determinism), see `mingpt/utils.py`.
+
 ### Unit tests
 
 Coverage is not super amazing just yet but:
