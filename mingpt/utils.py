@@ -50,7 +50,8 @@ class CfgNode:
             else:
                 parts.append("%s: %s\n" % (k, v))
         parts = [' ' * (indent * 4) + p for p in parts]
-        return "".join(parts)
+        p = "".join(parts)
+        return p
 
     def to_dict(self):
         """ return a dict representation of the config """

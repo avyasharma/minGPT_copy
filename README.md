@@ -1,4 +1,3 @@
-
 # minGPT
 
 ![mingpt](mingpt.jpg)
@@ -24,7 +23,7 @@ cd minGPT
 pip install -e .
 ```
 
-### Usage
+### Usages
 
 Here's how you'd instantiate a GPT-2 (124M param version):
 
@@ -141,6 +140,8 @@ Papers + some implementation notes:
 - We did not use weight decay because applying a small weight decay of 0.01 did not change representation quality.
 - iGPT-S lr 0.003
 - No dropout is used.
+
+# Pull Request Testing
 
 ### License
 
