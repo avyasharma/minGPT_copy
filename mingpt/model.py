@@ -308,3 +308,4 @@ class GPT(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1)
 
         return idx
+#there is no new section of model
