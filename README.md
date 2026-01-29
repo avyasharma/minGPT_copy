@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Name: Joanna Chang
+=======
+AndrewID: joannac2
+>>>>>>> merge-conflict
 
 # minGPT
 
