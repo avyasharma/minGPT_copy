@@ -1,5 +1,5 @@
 
-# minGPT
+# MeowMeowILoveCats
 
 ![mingpt](mingpt.jpg)
 
