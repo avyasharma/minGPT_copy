@@ -4,13 +4,20 @@ import sys
 import json
 import random
 from ast import literal_eval
+from typing import Any, Dict, List
 
 import numpy as np
 import torch
 
 # -----------------------------------------------------------------------------
 
-def set_seed(seed):
+def set_seed(seed: int) -> None:
+    """
+    Set random seed for reproducibility across random, numpy, and pytorch.
+    
+    Args:
+        seed: Integer seed value for random number generators
+    """
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
