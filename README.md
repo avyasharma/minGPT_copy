@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT without modifications
 
 ![mingpt](mingpt.jpg)
 
