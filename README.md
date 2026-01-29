@@ -1,6 +1,8 @@
 
 # minGPT
 *now solved for merge conflict*
+
+*now ready for PR*
 > minGPT is a minimalistic implementation of the GPT (Generative Pretrained Transformer) model in PyTorch.
 
 ![mingpt](mingpt.jpg)
