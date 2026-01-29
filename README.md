@@ -1,4 +1,8 @@
 
+
+
+Lab note: change from merge-conflict branch
+
 # minGPT
 
 ![mingpt](mingpt.jpg)
