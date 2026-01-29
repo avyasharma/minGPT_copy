@@ -1,5 +1,6 @@
 
 # minGPT
+This is Ryan's (ryanw3) Lab 3 Checkpt 1!
 
 ![mingpt](mingpt.jpg)
 
