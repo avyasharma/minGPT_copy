@@ -1,7 +1,7 @@
 
 # minGPT
 *now solved for merge conflict*
-sdfadaf
+
 *now ready for PR*
 > minGPT is a minimalistic implementation of the GPT (Generative Pretrained Transformer) model in PyTorch.
 
