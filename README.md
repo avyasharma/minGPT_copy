@@ -1,5 +1,8 @@
 
-Lab note: change from MAIN branch (conflict version)
+
+Lab note: resolved merge conflict between main and merge-conflict branches
+
+(Post-merge amend)
 
 
 # minGPT
