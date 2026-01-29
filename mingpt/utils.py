@@ -11,7 +11,7 @@ import torch
 # -----------------------------------------------------------------------------
 
 def set_seed(seed):
-    random.seed(seed)
+    random.seed(seed + 1)
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
