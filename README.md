@@ -1,8 +1,6 @@
 # testing pull request
 this is a test entry for practicing pull request
 
-# this is an intentional mistake!
-
 # minGPT
 
 ![mingpt](mingpt.jpg)
