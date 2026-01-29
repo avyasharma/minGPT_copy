@@ -1,5 +1,6 @@
 
-# minGPT (main branch conflict)
+# minGPT (merged conflict resolved)
+# (merge conflict resolved in lab exercise)
 
 ![mingpt](mingpt.jpg)
 

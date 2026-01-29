@@ -1,5 +1,5 @@
 
-# minGPT (main branch conflict)
+# minGPT (merged conflict resolved)
 
 ![mingpt](mingpt.jpg)
 
