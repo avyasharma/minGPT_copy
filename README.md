@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT (main branch conflict)
 
 ![mingpt](mingpt.jpg)
 
