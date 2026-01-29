@@ -24,7 +24,7 @@ class NewGELU(nn.Module):
     Reference: Gaussian Error Linear Units (GELU) paper: https://arxiv.org/abs/1606.08415
     """
     print("merge conflict resolved")
-
+    print("new feature for PR")
     def forward(self, x):
         return 0.5 * x * (1.0 + torch.tanh(math.sqrt(2.0 / math.pi) * (x + 0.1 * torch.pow(x, 3.0))))
 
