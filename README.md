@@ -1,5 +1,6 @@
 
 # minGPT
+> minGPT is a minimalistic implementation of the GPT (Generative Pretrained Transformer) model in PyTorch.
 
 ![mingpt](mingpt.jpg)
 
