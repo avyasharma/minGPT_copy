@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT (amazing repo I am just using to learn Git)
 
 ![mingpt](mingpt.jpg)
 
