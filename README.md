@@ -1,4 +1,7 @@
 
+Lab note: change from MAIN branch (conflict version)
+
+
 # minGPT
 
 ![mingpt](mingpt.jpg)
