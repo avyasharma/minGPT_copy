@@ -10,6 +10,7 @@ import torch
 
 # -----------------------------------------------------------------------------
 
+#default seed is 42, keep constant seed to ensure predictable responses.
 def set_seed(seed=42):
     random.seed(seed)
     np.random.seed(seed)
