@@ -149,3 +149,6 @@ MIT
 Lab 3 note: conflict resolved by keeping a single coherent line.
 
 Lab 3 note: merge commit was amended to include an extra small change.
+
+
+<!-- Lab 3 PR (section 2): small documentation change -->
