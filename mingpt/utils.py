@@ -10,7 +10,8 @@ import torch
 
 # -----------------------------------------------------------------------------
 
-def set_seed(seed):
+def set_seed(seed: int) -> None:
+    """Set random seed for reproducibility and deterministic behavior across all RNGs."""
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)

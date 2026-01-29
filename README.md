@@ -142,6 +142,10 @@ Papers + some implementation notes:
 - iGPT-S lr 0.003
 - No dropout is used.
 
+### Contributing
+
+Contributions are welcome! Please feel free to submit issues and pull requests.
+
 ### License
 
 MIT
