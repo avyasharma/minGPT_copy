@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 Name: Joanna Chang
-=======
 AndrewID: joannac2
->>>>>>> merge-conflict
+Course: MLiP Spring 26
 
 # minGPT
 
