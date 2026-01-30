@@ -280,11 +280,15 @@ class GPT(nn.Module):
         return logits, loss
 
     @torch.no_grad()
-    def generate(self, idx, max_new_tokens, temperature=1.0, do_sample=False, top_k=None):
+<<<<<<< HEAD
+    def generate(self, idx, max_new_tokens, temperature=0.5, do_sample=False, top_k=None):
+=======
+    def generate(self, idx, max_new_tokens, temperature=0.5, do_sample=False, top_k=None):
+>>>>>>> lab3
         """
-        Take a conditioning sequence of indices idx (LongTensor of shape (b,t)) and complete
+        Take a conditioning sequence of indicesgit  idx (LongTensor of shape (b,t)) and complete
         the sequence max_new_tokens times, feeding the predictions back into the model each time.
-        Most likely you'll want to make sure to be in model.eval() mode of operation for this.
+        You want to make sure to be in model.eval() mode of operation for this.
         """
         for _ in range(max_new_tokens):
             # if the sequence context is growing too long we must crop it at block_size
