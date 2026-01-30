@@ -1,5 +1,4 @@
-
-# minGPT
+# minGPT - This is a different line from the main branch.  
 
 ![mingpt](mingpt.jpg)
 
@@ -145,3 +144,4 @@ Papers + some implementation notes:
 ### License
 
 MIT
+### Edited for Lab 3 PR exercise
