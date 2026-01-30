@@ -15,6 +15,7 @@ def set_seed(seed):
     np.random.seed(seed)
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
+    print("bananas")
 
 def setup_logging(config):
     """ monotonous bookkeeping """
@@ -52,7 +53,7 @@ class CfgNode:
         parts = [' ' * (indent * 4) + p for p in parts]
         return "".join(parts)
 
-    def to_dict(self):
+    def to_hashmap(self):
         """ return a dict representation of the config """
         return { k: v.to_dict() if isinstance(v, CfgNode) else v for k, v in self.__dict__.items() }
 
