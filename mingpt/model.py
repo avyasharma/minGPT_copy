@@ -123,7 +123,7 @@ class GPT(nn.Module):
         assert type_given ^ params_given # exactly one of these (XOR)
         if type_given:
             # translate from model_type to detailed configuration
-            config.merge_from_dict({
+            conf.merge_from_dict({
                 # names follow the huggingface naming conventions
                 # GPT-1
                 'openai-gpt':   dict(n_layer=12, n_head=12, n_embd=768),  # 117M params
