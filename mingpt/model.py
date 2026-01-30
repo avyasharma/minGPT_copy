@@ -85,7 +85,7 @@ class Block(nn.Module):
             dropout = nn.Dropout(config.resid_pdrop),
         ))
         m = self.mlp
-        self.mlpf = lambda x: m.dropout(m.c_proj(m.act(m.c_fc(x)))) # MLP forward
+        self.mlpf = lambda x: m["dropout"](m["c_proj"](m["act"](m["c_fc"](x)))) # MLP forward
 
     def forward(self, x):
         x = x + self.attn(self.ln_1(x))
