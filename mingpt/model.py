@@ -88,9 +88,9 @@ class Block(nn.Module):
         self.mlpf = lambda x: m.dropout(m.c_proj(m.act(m.c_fc(x)))) # MLP forward
 
     def forward(self, x):
-        x = x + self.attn(self.ln_1(x))
-        x = x + self.mlpf(self.ln_2(x))
-        return x
+        attn_out = x + self.attn(self.ln_1(x))
+        mlp_out = attn_out + self.mlpf(self.ln_2(attn_out))
+        return mlp_out
 
 class GPT(nn.Module):
     """ GPT Language Model """
