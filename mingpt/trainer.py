@@ -86,7 +86,8 @@ class Trainer:
             except StopIteration:
                 data_iter = iter(train_loader)
                 batch = next(data_iter)
-
+            
+            # Enable async CPU→GPU transfers when using CUDA (requires pin_memory=True)
             non_blocking = (self.device == 'cuda')
             batch = [t.to(self.device, non_blocking=non_blocking) for t in batch]
 
