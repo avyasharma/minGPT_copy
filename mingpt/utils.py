@@ -36,6 +36,7 @@ class CfgNode:
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
+        print("This is feature branch version")
         self._frozen = False  # Added initialization of frozen state
 
     def __setattr__(self, key, value): # Added override for setting attributes
