@@ -16,6 +16,7 @@ from torch.nn import functional as F
 
 from mingpt.utils import CfgNode as CN
 
+# A different line of code is being added here. This comment is to demonstrate merge conflict later on.
 # -----------------------------------------------------------------------------
 
 class NewGELU(nn.Module):
