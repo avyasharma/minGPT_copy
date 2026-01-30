@@ -1,5 +1,4 @@
-
-# minGPT
+# minGPT - This is a change from the feature branch.
 
 ![mingpt](mingpt.jpg)
 
