@@ -147,3 +147,9 @@ Papers + some implementation notes:
 MIT
 ## Lab 3 Change
 This line was added on main for Lab 3 (conflict demo).
+
+
+## Lab 3 Change
+_(Follow-up edit included via amended merge commit.)_
+
+
