@@ -8,6 +8,10 @@ https://github.com/openai/gpt-2/blob/master/src/model.py
 https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py
 """
 
+# TODO: Create new classes for novel Self Attention Mechanisms...
+# TODO: Integrate other novel experimental Activation Functions...
+# TODO: Run experiments with the added new attention mechanisms and activation functions...
+
 import math
 
 import torch
