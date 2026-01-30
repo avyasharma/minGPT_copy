@@ -310,4 +310,5 @@ class GPT(nn.Module):
         return idx
 #adding new section to model
 def dummy_function():
+    #this is a dummy function
     pass
