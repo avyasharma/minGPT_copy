@@ -88,7 +88,10 @@ class Block(nn.Module):
         self.mlpf = lambda x: m.dropout(m.c_proj(m.act(m.c_fc(x)))) # MLP forward
 
     def forward(self, x):
-        x = x + self.attn(self.ln_1(x))
+        attn_out = self.attn(self.ln_1(x))
+        assert attn_out.size() == x.size()
+
+        x = x + attn_out
         x = x + self.mlpf(self.ln_2(x))
         return x
 
