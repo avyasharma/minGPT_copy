@@ -145,4 +145,10 @@ Papers + some implementation notes:
 ### License
 
 MIT
+<<<<<<< HEAD
 Different change from main branch
+=======
+Test change from merge-conflict branch
+MIT
+Resolved: Combined changes from both branches
+# Additional documentation after merge
