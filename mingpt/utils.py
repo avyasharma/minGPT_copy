@@ -101,3 +101,14 @@ class CfgNode:
             # overwrite the attribute
             print("command line overwriting config attribute %s with %s" % (key, val))
             setattr(obj, leaf_key, val)
+
+def to_list(self):
+    """Return a list representation of the config"""
+    return [
+        (k, v.to_list() if isinstance(v, CfgNode) else v)
+        for k, v in self.__dict__.items()
+    ]
+
+def merge_from_list(self, items):
+    for k, v in items:
+        setattr(self, k, v)
