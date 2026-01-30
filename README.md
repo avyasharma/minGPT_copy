@@ -1,4 +1,4 @@
-# This lab deals with Git, which can help teams collaborate seamlessly.
+# This is Lab 3 where we are learning some of the functionalities of Git, which is a useful tool in collaboration.
 
 # minGPT
 
