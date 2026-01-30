@@ -36,6 +36,15 @@ class CfgNode:
 
     def __init__(self, **kwargs):
         self.__dict__.update(kwargs)
+        self._frozen = False  # Added initialization of frozen state
+
+    def __setattr__(self, key, value): # Added override for setting attributes
+        if getattr(self, '_frozen', False) and key != '_frozen':
+            raise RuntimeError("Config is frozen! Cannot modify attributes.")
+        super().__setattr__(key, value)
+
+    def freeze(self): #Added freeze method
+        self._frozen = True
 
     def __str__(self):
         return self._str_helper(0)
