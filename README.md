@@ -1,4 +1,4 @@
-
+# Buffett editing
 # minGPT
 
 ![mingpt](mingpt.jpg)
