@@ -1,4 +1,4 @@
-# minGPT - This is a different line from the main branch.
+# minGPT - This is a different line from the main branch.  
 
 ![mingpt](mingpt.jpg)
 
