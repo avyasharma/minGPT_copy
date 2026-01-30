@@ -1,9 +1,14 @@
 
 # minGPT
 
-## Git Lab Exercise - Master Branch
-This is a different modification made on the master branch.
-This will create a merge conflict with the merge-conflict branch.
+## Lab 3 Git Exercise
+This repository has been modified for Lab 3 exercise on merge conflicts.
+Both the master branch and merge-conflict branch were modified, creating a conflict that has been successfully resolved.
+
+**Merge Conflict Resolution Completed:**
+- Branch created and merged with conflicts
+- Conflicts resolved manually
+- This commit has been amended to add additional documentation
 
 ![mingpt](mingpt.jpg)
 
