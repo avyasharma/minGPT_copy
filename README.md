@@ -1,5 +1,6 @@
 MinGPT: main edit; MinGPT: branch edit
 "Small Code Change"
+"Small Change for Pull Request"
 # minGPT
 
 ![mingpt](mingpt.jpg)
