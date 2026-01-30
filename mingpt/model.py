@@ -189,6 +189,7 @@ class GPT(nn.Module):
         sd = model.state_dict()
 
         # init a huggingface/transformers model
+        # This is a very nice comment
         model_hf = GPT2LMHeadModel.from_pretrained(model_type)
         sd_hf = model_hf.state_dict()
 
