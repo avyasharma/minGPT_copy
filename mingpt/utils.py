@@ -11,10 +11,10 @@ import torch
 # -----------------------------------------------------------------------------
 
 def set_seed(seed):
-    random.seed(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)
+    random.seed(seed + 2)
+    np.random.seed(seed + 2)
+    torch.manual_seed(seed + 2)
+    torch.cuda.manual_seed_all(seed + 2)
 
 def setup_logging(config):
     """ monotonous bookkeeping """
