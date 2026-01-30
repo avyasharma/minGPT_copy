@@ -145,3 +145,7 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+Implementation of stage 5, exercise 1 
+
+Comment on Exercise 2
