@@ -16,7 +16,7 @@ The minGPT library is three files: [mingpt/model.py](mingpt/model.py) contains t
 
 ### Library Installation
 
-If you want to `import mingpt` into your project:
+Steps to `import mingpt` in your project:
 
 ```
 git clone https://github.com/karpathy/minGPT.git
