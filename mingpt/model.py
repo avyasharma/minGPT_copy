@@ -91,9 +91,11 @@ class Block(nn.Module):
         attn_out = self.attn(self.ln_1(x))
         assert attn_out.size() == x.size()
 
-        x = x + attn_out
-        x = x + self.mlpf(self.ln_2(x))
-        return x
+        attn_res = x + attn_out
+
+        mlp_out = self.mlpf(self.ln_2(attn_res))
+        mlp_res = attn_res + mlp_out
+        return mlp_res
 
 class GPT(nn.Module):
     """ GPT Language Model """
