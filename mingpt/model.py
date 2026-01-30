@@ -308,3 +308,7 @@ class GPT(nn.Module):
             idx = torch.cat((idx, idx_next), dim=1)
 
         return idx
+#adding new section to model
+def dummy_function():
+    #this is a dummy function
+    pass
