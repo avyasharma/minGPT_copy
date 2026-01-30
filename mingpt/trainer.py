@@ -86,7 +86,8 @@ class Trainer:
             except StopIteration:
                 data_iter = iter(train_loader)
                 batch = next(data_iter)
-            batch = [t.to(self.device) for t in batch]
+            non_blocking = (self.device == 'cuda')
+            batch = [t.to(self.device, non_blocking=non_blocking) for t in batch]
             x, y = batch
 
             # forward the model
