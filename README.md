@@ -1,5 +1,5 @@
 
-# minGPT
+# MODIFIED README
 
 ![mingpt](mingpt.jpg)
 
