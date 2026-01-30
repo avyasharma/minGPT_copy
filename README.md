@@ -1,4 +1,5 @@
-MinGPT: main edit
+MinGPT: main edit; MinGPT: branch edit
+"Small Code Change"
 # minGPT
 
 ![mingpt](mingpt.jpg)
