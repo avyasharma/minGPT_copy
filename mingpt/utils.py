@@ -39,6 +39,7 @@ class CfgNode:
         for k in kwargs:
             if not isinstance(k, str):
                 raise TypeError("Config keys must be strings.")
+        print("This is main branch version")
         self.__dict__.update(kwargs)
         self._frozen = False  # Added initialization of frozen state
 
