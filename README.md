@@ -142,6 +142,7 @@ Papers + some implementation notes:
 - iGPT-S lr 0.003
 - No dropout is used.
 This is a change from the feature branch.
+This is a small change 
 
 ### License
 
