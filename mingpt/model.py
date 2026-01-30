@@ -178,7 +178,7 @@ class GPT(nn.Module):
         from a huggingface/transformers checkpoint.
         """
         assert model_type in {'gpt2', 'gpt2-medium', 'gpt2-large', 'gpt2-xl'}
-        from transformers import GPT2LMHeadModel
+        from transformers import GPT2LMHeadModel as CoolModelForTesting
 
         # create a from-scratch initialized minGPT model
         config = cls.get_default_config()
@@ -189,7 +189,7 @@ class GPT(nn.Module):
         sd = model.state_dict()
 
         # init a huggingface/transformers model
-        model_hf = GPT2LMHeadModel.from_pretrained(model_type)
+        model_hf = CoolModelForTesting.from_pretrained(model_type)
         sd_hf = model_hf.state_dict()
 
         # copy while ensuring all of the parameters are aligned and match in names and shapes
