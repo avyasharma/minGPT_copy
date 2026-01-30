@@ -1,4 +1,4 @@
-
+MinGPT: branch edit
 # minGPT
 
 ![mingpt](mingpt.jpg)
