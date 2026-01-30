@@ -107,8 +107,10 @@ class GPT(nn.Module):
         C.vocab_size = None
         C.block_size = None
         # dropout hyperparameters
-        C.embd_pdrop = 0.1
-        C.resid_pdrop = 0.1
+        #C.embd_pdrop = 0.1
+        C.embd_pdrop = 0.2  ## changing for the merge-conflict branch
+        # C.resid_pdrop = 0.1
+        C.resid_pdrop = 0.2  ## changing on the main branch to stage before amending
         C.attn_pdrop = 0.1
         return C
 
