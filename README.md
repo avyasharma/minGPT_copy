@@ -146,7 +146,7 @@ Papers + some implementation notes:
 
 MIT
 
+### Merge conflict change
 
-## My change in main
+I love github
 
-I do not like github
