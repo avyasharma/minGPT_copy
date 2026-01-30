@@ -141,6 +141,7 @@ Papers + some implementation notes:
 - We did not use weight decay because applying a small weight decay of 0.01 did not change representation quality.
 - iGPT-S lr 0.003
 - No dropout is used.
+This is a change from the feature branch merge-conflict
 
 ### License
 
