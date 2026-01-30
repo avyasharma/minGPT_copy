@@ -153,3 +153,6 @@ This line was added on main for Lab 3 (conflict demo).
 _(Follow-up edit included via amended merge commit.)_
 
 
+##Exercise 2: PR demo: small README tweak on pull-request branch.
+
+
