@@ -15,6 +15,8 @@ Most of the remaining complexity exists purely for **efficient batching and trai
 
 lab3 change 2
 
+lab3 change for exercise 2
+
 ## ⚠️ Project Status (Jan 2023)
 
 minGPT is now **semi-archived**.
