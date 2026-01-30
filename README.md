@@ -1,6 +1,6 @@
 
-# minGPT
-
+# MODIFIED README
+I do agree this work is meaningful
 ![mingpt](mingpt.jpg)
 
 A PyTorch re-implementation of [GPT](https://github.com/openai/gpt-2), both training and inference. minGPT tries to be small, clean, interpretable and educational, as most of the currently available GPT model implementations can a bit sprawling. GPT is not a complicated model and this implementation is appropriately about 300 lines of code (see [mingpt/model.py](mingpt/model.py)). All that's going on is that a sequence of indices feeds into a [Transformer](https://arxiv.org/abs/1706.03762), and a probability distribution over the next index in the sequence comes out. The majority of the complexity is just being clever with batching (both across examples and over sequence length) for efficiency.
@@ -141,6 +141,8 @@ Papers + some implementation notes:
 - We did not use weight decay because applying a small weight decay of 0.01 did not change representation quality.
 - iGPT-S lr 0.003
 - No dropout is used.
+
+PR exercise: small README update.
 
 ### License
 
