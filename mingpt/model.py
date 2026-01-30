@@ -97,6 +97,7 @@ class GPT(nn.Module):
 
     @staticmethod
     def get_default_config():
+        # returns a config object with the default GPT model hyperparameters
         C = CN()
         # either model_type or (n_layer, n_head, n_embd) must be given in the config
         C.model_type = 'gpt'
