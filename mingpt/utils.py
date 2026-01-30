@@ -35,6 +35,10 @@ class CfgNode:
     # TODO: additional existence/override checks when reading/writing params?
 
     def __init__(self, **kwargs):
+        # validate keys
+        for k in kwargs:
+            if not isinstance(k, str):
+                raise TypeError("Config keys must be strings.")
         self.__dict__.update(kwargs)
 
     def __str__(self):
