@@ -1,5 +1,5 @@
 
-# minGPT
+# Conflict Readme
 
 ![mingpt](mingpt.jpg)
 
