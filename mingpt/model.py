@@ -89,7 +89,9 @@ class Block(nn.Module):
 
     def forward(self, x):
         x = x + self.attn(self.ln_1(x))
-        x = x + self.mlpf(self.ln_2(x))
+        # MLP forward inline instead of lambda
+        m = self.mlp
+        x = x + m.dropout(m.c_proj(m.act(m.c_fc(self.ln_2(x)))))
         return x
 
 class GPT(nn.Module):
