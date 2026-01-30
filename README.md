@@ -1,5 +1,5 @@
-
-# minGPT (different version)
+# minGPT (modified title)
+// This commend was added after the merge conflict
 
 ![mingpt](mingpt.jpg)
 
