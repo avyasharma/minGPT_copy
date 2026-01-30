@@ -13,6 +13,7 @@ import math
 import torch
 import torch.nn as nn
 from torch.nn import functional as F
+from transformers import GPT2LMHeadModel
 
 from mingpt.utils import CfgNode as CN
 
@@ -178,7 +179,6 @@ class GPT(nn.Module):
         from a huggingface/transformers checkpoint.
         """
         assert model_type in {'gpt2', 'gpt2-medium', 'gpt2-large', 'gpt2-xl'}
-        from transformers import GPT2LMHeadModel
 
         # create a from-scratch initialized minGPT model
         config = cls.get_default_config()
@@ -189,6 +189,7 @@ class GPT(nn.Module):
         sd = model.state_dict()
 
         # init a huggingface/transformers model
+        # This is a very nice comment for the pull request
         model_hf = GPT2LMHeadModel.from_pretrained(model_type)
         sd_hf = model_hf.state_dict()
 
