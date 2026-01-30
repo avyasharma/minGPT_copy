@@ -65,15 +65,15 @@ python -m unittest discover tests
 
 ### todos
 
-- add gpt-2 finetuning demo on arbitrary given text file
-- add dialog agent demo
-- better docs of outcomes for existing projects (adder, chargpt)
-- add mixed precision and related training scaling goodies
-- distributed training support
-- reproduce some benchmarks in projects/, e.g. text8 or other language modeling
-- proper logging instead of print statement amateur hour haha
-- i probably should have a requirements.txt file...
-- it should be possible to load in many other model weights other than just gpt2-\*
+- [ ] add gpt-2 finetuning demo on arbitrary given text file
+- [ ] add dialog agent demo
+- [ ] better docs of outcomes for existing projects (adder, chargpt)
+- [ ] add mixed precision and related training scaling goodies
+- [ ] distributed training support
+- [ ] reproduce some benchmarks in projects/, e.g. text8 or other language modeling
+- [ ] proper logging instead of print statement amateur hour haha
+- [ ] i probably should have a requirements.txt file...
+- [ ] it should be possible to load in many other model weights other than just gpt2-\*
 
 ### References
 
