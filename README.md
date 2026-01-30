@@ -145,3 +145,10 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+### Merge conflict change
+
+I love github
+
+### Pull Request Part
+I love pull request
