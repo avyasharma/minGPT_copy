@@ -78,7 +78,10 @@ class Trainer:
         self.iter_num = 0
         self.iter_time = time.time()
         data_iter = iter(train_loader)
+        count = 1
         while True:
+            print("Current Iteration index of Run: ", count)
+            count += 1
 
             # fetch the next batch (x, y) and re-init iterator if needed
             try:
