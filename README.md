@@ -145,3 +145,5 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+test merge-conflict
