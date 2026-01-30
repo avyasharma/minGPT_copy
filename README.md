@@ -145,3 +145,7 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+Update documentation for the merge-conflict branch.
+
+Please ensure all tests pass before submitting a PR.
