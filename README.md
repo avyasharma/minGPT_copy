@@ -3,6 +3,7 @@
 <<<<<<< HEAD
 # This is Jinhong, I just add a New comment here.
 # Conflict resolved and commit amended.
+# Test
 >>>>>>> merge-conflict
 ![mingpt](mingpt.jpg)
 
