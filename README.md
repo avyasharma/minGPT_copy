@@ -145,3 +145,7 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+Training parameters: Batch size 128
+.
+ 
