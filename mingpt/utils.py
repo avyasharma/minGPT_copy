@@ -113,3 +113,6 @@ def to_list(self):
 def merge_from_listts(self, items):
     for k, v in items:
         setattr(self, k, v)
+
+#change made here, this is additional comments
+list = [1,2,3]
