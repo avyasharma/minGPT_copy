@@ -63,7 +63,7 @@ Coverage is not super amazing just yet but:
 python -m unittest discover tests
 ```
 
-### todos
+### To-Dos
 
 - add gpt-2 finetuning demo on arbitrary given text file
 - add dialog agent demo
