@@ -1,5 +1,7 @@
-# This is my version from main branch
+# This is my version from main branch (modified)
 this is the modification I am making to the branch
+
+<!-- Added by Sneha Saravanan for Lab 3 -->
 
 # minGPT
 
@@ -147,3 +149,5 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+# Additional change after merge now made
