@@ -9,8 +9,11 @@ The entire model lives in ~300 lines of readable code ([`mingpt/model.py`](mingp
 > token indices → Transformer → next-token probability distribution
 
 <!-- Most of the remaining complexity exists purely for **efficient batching and training**. -->
+Most of the remaining complexity exists purely for **efficient batching and training**.  Conflicting change for lab3.
 
 ---
+
+lab3 change 2
 
 ## ⚠️ Project Status (Jan 2023)
 
