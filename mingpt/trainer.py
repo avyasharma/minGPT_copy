@@ -69,7 +69,7 @@ class Trainer:
             self.train_dataset,
             sampler=torch.utils.data.RandomSampler(self.train_dataset, replacement=True, num_samples=int(1e10)),
             shuffle=False,
-            pin_memory=True,
+            pin_memory=(self.device == 'cuda'),
             batch_size=config.batch_size,
             num_workers=config.num_workers,
         )
@@ -86,8 +86,10 @@ class Trainer:
             except StopIteration:
                 data_iter = iter(train_loader)
                 batch = next(data_iter)
+
             non_blocking = (self.device == 'cuda')
             batch = [t.to(self.device, non_blocking=non_blocking) for t in batch]
+
             x, y = batch
 
             # forward the model
