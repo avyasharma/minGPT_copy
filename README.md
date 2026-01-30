@@ -152,3 +152,4 @@ Test change from merge-conflict branch
 MIT
 Resolved: Combined changes from both branches
 # Additional documentation after merge
+# My contribution to minGPT
