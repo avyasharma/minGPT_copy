@@ -1,5 +1,5 @@
 
-# Conflict Readme
+# MODIFIED README
 
 ![mingpt](mingpt.jpg)
 
