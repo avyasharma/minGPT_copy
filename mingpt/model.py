@@ -8,6 +8,8 @@ https://github.com/openai/gpt-2/blob/master/src/model.py
 https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py
 3) "Attention is all you need paper: 
 https://arxiv.org/abs/1706.03762
+3) "My repo for bru"
+https://github.com/mlip-cmu/minGPT_copy.git
 """
 
 import math

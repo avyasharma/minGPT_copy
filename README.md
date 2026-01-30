@@ -1,5 +1,6 @@
-
 # minGPT
+
+This is intended for howework purposes
 
 ![mingpt](mingpt.jpg)
 
