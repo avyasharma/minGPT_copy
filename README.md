@@ -145,3 +145,8 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+test merge-conflict (main branch variation)
+test merge-conflict (merged from merge-conflict branch)
+
+test for pull request
