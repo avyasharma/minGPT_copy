@@ -87,7 +87,7 @@ class Trainer:
                 data_iter = iter(train_loader)
                 batch = next(data_iter)
             
-            # Enable async CPU→GPU transfers when using CUDA (requires pin_memory=True)
+            # Enable async CPU→GPU transfers when using CUDA (requires pin_memory=True) 
             non_blocking = (self.device == 'cuda')
             batch = [t.to(self.device, non_blocking=non_blocking) for t in batch]
 
@@ -96,7 +96,7 @@ class Trainer:
             # forward the model
             logits, self.loss = model(x, y)
 
-            # backprop and update the parameters
+            # backprop and update the perimeters
             model.zero_grad(set_to_none=True)
             self.loss.backward()
             torch.nn.utils.clip_grad_norm_(model.parameters(), config.grad_norm_clip)
