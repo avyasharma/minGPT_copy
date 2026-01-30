@@ -107,7 +107,8 @@ class GPT(nn.Module):
         C.vocab_size = None
         C.block_size = None
         # dropout hyperparameters
-        C.embd_pdrop = 0.1
+        # Updating embedding dropout to 0.25 as per recent best practices
+        C.embd_pdrop = 0.25
         C.resid_pdrop = 0.1
         C.attn_pdrop = 0.1
         return C
