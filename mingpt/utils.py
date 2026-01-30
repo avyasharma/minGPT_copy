@@ -102,6 +102,7 @@ class CfgNode:
             print("command line overwriting config attribute %s with %s" % (key, val))
             setattr(obj, leaf_key, val)
 
+#list version of to_dict function
 def to_list(self):
     """Return a list representation of the config"""
     return [
@@ -109,6 +110,9 @@ def to_list(self):
         for k, v in self.__dict__.items()
     ]
 
-def merge_from_list(self, items):
+def merge_from_listts(self, items):
     for k, v in items:
         setattr(self, k, v)
+
+#change made here, this is additional comments
+list = [1,2,3]
