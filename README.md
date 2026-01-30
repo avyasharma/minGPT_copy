@@ -1,3 +1,4 @@
+# This lab deals with Git, which can help teams collaborate seamlessly.
 
 # minGPT
 
