@@ -145,3 +145,5 @@ Papers + some implementation notes:
 ### License
 
 MIT
+## Lab 3 Change
+This line was added on main for Lab 3 (conflict demo).
