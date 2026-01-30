@@ -10,6 +10,8 @@ import torch
 
 # -----------------------------------------------------------------------------
 
+# Brand new comment: makin small change and amending it to merge commit.
+
 def set_seed(seed):
     random.seed(seed)
     np.random.seed(seed)
