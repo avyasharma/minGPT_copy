@@ -145,3 +145,14 @@ Papers + some implementation notes:
 ### License
 
 MIT
+## Lab 3 Change
+This line was added on main for Lab 3 (conflict demo).
+
+
+## Lab 3 Change
+_(Follow-up edit included via amended merge commit.)_
+
+
+##Exercise 2: PR demo: small README tweak on pull-request branch.
+
+
