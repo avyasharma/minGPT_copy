@@ -16,8 +16,8 @@ from torch.nn import functional as F
 
 from mingpt.utils import CfgNode as CN
 
-# -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
 class NewGELU(nn.Module):
     """
     Implementation of the GELU activation function currently in Google BERT repo (identical to OpenAI GPT).
