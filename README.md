@@ -145,3 +145,7 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+### Author
+
+cgable2@andrew.cmu.com
