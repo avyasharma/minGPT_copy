@@ -148,4 +148,4 @@ MIT
 
 ### Author
 
-Cameron Gable cgable2@andrew.cmu.edu
+Cameron Gable cgable2@andrew.cmu.edu Carnegie Mellon University
