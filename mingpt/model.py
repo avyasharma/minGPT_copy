@@ -1,5 +1,5 @@
 """
-Full definition of a GPT Language Model, all of it in this single file.
+Full definition of a GPT Language Model (Resolved: merged both branches).
 
 References:
 1) the official GPT-2 TensorFlow implementation released by OpenAI:
@@ -17,6 +17,7 @@ from torch.nn import functional as F
 from mingpt.utils import CfgNode as CN
 
 # -----------------------------------------------------------------------------
+# Additional comment added during amend
 
 class NewGELU(nn.Module):
     """
