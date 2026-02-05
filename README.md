@@ -2,6 +2,8 @@
 # minGPT
 
 ![mingpt](mingpt.jpg)
+This is for exercise 2
+
 Lab 3: Making changes for the purposes of the lab again
 I want this change on the merge-conflict branch
 conflict resolve; great learning experience for me
