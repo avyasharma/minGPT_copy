@@ -145,3 +145,4 @@ Papers + some implementation notes:
 ### License
 
 MIT
+Branch change: notes from merge-conflict
