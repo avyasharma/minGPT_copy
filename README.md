@@ -145,3 +145,4 @@ Papers + some implementation notes:
 ### License
 
 Main change: notes from main branch
+Branch change: notes from merge-conflict
