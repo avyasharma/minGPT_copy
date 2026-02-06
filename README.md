@@ -2,18 +2,10 @@
 # minGPT
 
 ![mingpt](mingpt.jpg)
+
 This is for exercise 2
 
-Lab 3: Making changes for the purposes of the lab again
-I want this change on the merge-conflict branch
-conflict resolve; great learning experience for me
-=======
-I am making this initial change
-=======
-Now am making this change on the main branch and see
->>>>>>> 5e0a302 (changes have been made)
 
->>>>>>> 41e9427 (Update the changes I have made on the line for this main branch file)
 
 A PyTorch re-implementation of [GPT](https://github.com/openai/gpt-2), both training and inferenceg. minGPT tries to be small, clean, interpretable and educational, as most of the currently available GPT model implementations can a bit sprawling. GPT is not a complicated model and this implementation is appropriately about 300 lines of code (see [mingpt/model.py](mingpt/model.py)). All that's going on is that a sequence of indices feeds into a [Transformer](https://arxiv.org/abs/1706.03762), and a probability distribution over the next index in the sequence comes out. The majority of the complexity is just being clever with batching (both across examples and over sequence length) for efficiency.
 
