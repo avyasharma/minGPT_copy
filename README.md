@@ -144,4 +144,7 @@ Papers + some implementation notes:
 
 ### License
 
-MIT
+Main change: notes from main branch
+Branch change: notes from merge-conflict
+Post-merge tweak: clarified README after conflict resolution
+Minor README clarification for Exercise 2.
