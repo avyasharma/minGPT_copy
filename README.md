@@ -144,4 +144,4 @@ Papers + some implementation notes:
 
 ### License
 
-MIT
+Main change: notes from main branch
