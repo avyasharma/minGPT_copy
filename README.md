@@ -1,6 +1,6 @@
 # nanoGPT
 
-Both minGPT and nanoGPT were created by Andrej Karpathy. In short: nanoGPT is the more practical, performance-oriented successor to the education-focused minGPT.
+Both minGPT and nanoGPT were created by Andrej Karpathy. In short, nanoGPT is the more practical, performance-oriented successor to the education-focused minGPT.
 
 What's different?
 - minGPT was designed with a focus on education
