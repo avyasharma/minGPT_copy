@@ -1,3 +1,14 @@
+# nanoGPT
+
+Both minGPT and nanoGPT were created by Andrej Karpathy. Here's the key difference:
+
+- minGPT was designed with a focus on education. The minGPT library is three files: mingpt/model.py (the Transformer model definition), mingpt/bpe.py (a Byte Pair Encoder), and mingpt/trainer.py (PyTorch boilerplate training code). It's meant to be easy to read and learn from.
+
+- nanoGPT is Karpathy's rewrite that "prioritizes teeth over education." In other words, it shifts from being purely a teaching tool to something that's still simple but can actually reproduce real benchmarks. The code is plain and readable: train.py is a ~300-line boilerplate training loop and model.py a ~300-line GPT model definition, which can optionally load the GPT-2 weights from OpenAI.
+
+As of Jan 2023, minGPT is in a semi-archived state, and Karpathy points people to nanoGPT for more recent developments.
+
+So in short: nanoGPT is the more practical, performance-oriented successor to the education-focused minGPT.
 
 # minGPT
 
