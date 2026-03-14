@@ -1,3 +1,11 @@
+# nanoGPT
+
+In short: nanoGPT is the more practical, performance-oriented successor to the education-focused minGPT.
+
+What's different?
+- minGPT was designed with a focus on education
+- nanoGPT "prioritizes teeth over education." In other words, it shifts from being purely a teaching tool to something that's still simple but can actually reproduce real benchmarks. The code is still plain and readable: train.py is a ~300-line boilerplate training loop and model.py a ~300-line GPT model definition, which can optionally load the GPT-2 weights from OpenAI.
+
 
 # minGPT
 
