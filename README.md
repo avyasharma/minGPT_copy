@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT - Edición desde la rama de conflicto
 
 ![mingpt](mingpt.jpg)
 
