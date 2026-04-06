@@ -1,5 +1,5 @@
 
-# minGPT - Editado en MAIN para colisionar
+# minGPT - Versión Final Resuelta por Jefferson
 
 ![mingpt](mingpt.jpg)
 
