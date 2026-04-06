@@ -1,5 +1,5 @@
 
-# minGPT
+# minGPT - Editado en MAIN para colisionar
 
 ![mingpt](mingpt.jpg)
 
