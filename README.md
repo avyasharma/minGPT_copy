@@ -145,4 +145,3 @@ Papers + some implementation notes:
 ### License
 
 MIT
-DEBUG_MODE=TRUE (ERROR: NO SUBIR CREDENCIALES A PRODUCCION)
