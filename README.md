@@ -1,6 +1,10 @@
 
 # Cambio introducido en el main
 
+# Camio de ultima hora par el amend
+
+# Agregado para ejercicio 2
+
 # minGPT
 
 ![mingpt](mingpt.jpg)
