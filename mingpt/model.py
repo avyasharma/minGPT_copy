@@ -282,9 +282,9 @@ class GPT(nn.Module):
     @torch.no_grad()
     def generate(self, idx, max_new_tokens, temperature=1.0, do_sample=False, top_k=None):
         """
-        Take a conditioning sequence of indices idx (LongTensor of shape (b,t)) and complete
-        the sequence max_new_tokens times, feeding the predictions back into the model each time.
-        Most likely you'll want to make sure to be in model.eval() mode of operation for this.
+        Toma una secuencia de índices idx (LongTensor de forma (b,t)) y completa
+        la secuencia max_new_tokens veces, alimentando las predicciones de vuelta al modelo en cada paso.
+        Se recomienda asegurarse de estar en modo model.eval() al usar esta función.
         """
         for _ in range(max_new_tokens):
             # if the sequence context is growing too long we must crop it at block_size
