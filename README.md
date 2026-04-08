@@ -1,4 +1,4 @@
-
+This line was added in the merge-conflict branch
 # minGPT
 
 ![mingpt](mingpt.jpg)
