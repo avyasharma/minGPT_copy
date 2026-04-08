@@ -279,6 +279,7 @@ class GPT(nn.Module):
 
         return logits, loss
 
+    # Usar esta función únicamente en modo inferencia, no durante el entrenamiento
     @torch.no_grad()
     def generate(self, idx, max_new_tokens, temperature=1.0, do_sample=False, top_k=None):
         """
