@@ -1,4 +1,4 @@
-
+ahora cmabio en la main
 # minGPT
 
 ![mingpt](mingpt.jpg)
