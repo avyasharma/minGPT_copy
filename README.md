@@ -1,4 +1,4 @@
-
+cambio en merge-conflict
 # minGPT
 
 ![mingpt](mingpt.jpg)
