@@ -1,4 +1,5 @@
 EJERCICIO 1: ahora cambio en la main
+EJERCICIO 2: PR
 # minGPT
 
 ![mingpt](mingpt.jpg)
