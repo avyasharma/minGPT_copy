@@ -1,4 +1,4 @@
-
+Esto es el final luego del conflicto con revert
 # minGPT
 
 ![mingpt](mingpt.jpg)
