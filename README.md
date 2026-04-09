@@ -1,4 +1,10 @@
 
+This line was added combining both branches
+
+Merge conflict resolved successfully
+
+This line was added combining both branches
+Merge conflict resolved successfully
 # minGPT
 
 ![mingpt](mingpt.jpg)
