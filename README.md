@@ -1,4 +1,4 @@
-ahora cmabio en la main
+EJERCICIO 1: ahora cambio en la main
 # minGPT
 
 ![mingpt](mingpt.jpg)
