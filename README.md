@@ -145,3 +145,7 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+# Mi cambio desde main y merge-conflict combinados
+
+<!-- Reviewed by: Jorge Delgado -->
