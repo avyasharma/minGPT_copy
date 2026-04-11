@@ -9,7 +9,7 @@ A PyTorch re-implementation of [GPT](https://github.com/openai/gpt-2), both trai
 
 The minGPT library is three files: [mingpt/model.py](mingpt/model.py) contains the actual Transformer model definition, [mingpt/bpe.py](mingpt/bpe.py) contains a mildly refactored Byte Pair Encoder that translates between text and sequences of integers exactly like OpenAI did in GPT, [mingpt/trainer.py](mingpt/trainer.py) is (GPT-independent) PyTorch boilerplate code that trains the model. Then there are a number of demos and projects that use the library in the `projects` folder:
 
-Hola asdf
+Hola asdfasdfas
 
 - `projects/adder` trains a GPT from scratch to add numbers (inspired by the addition section in the GPT-3 paper)
 - `projects/chargpt` trains a GPT to be a character-level language model on some input text file
