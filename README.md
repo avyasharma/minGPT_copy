@@ -17,6 +17,7 @@ Hola asdfasdfas22
 - `generate.ipynb` shows how one can load a pretrained GPT2 and generate text given some prompt
 
 ### Library Installation
+1
 
 If you want to `import mingpt` into your project:
 
@@ -147,3 +148,5 @@ Papers + some implementation notes:
 ### License
 
 MIT
+N o t a   a d i c i o n a l  
+ 
