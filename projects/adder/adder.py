@@ -1,5 +1,9 @@
 """
 Trains a GPT to add n-digit numbers.
+
+
+DOCUMENTACION EN CERTIFICACION PARA EJEMPLO DE MAESTRIA EN IA
+
 """
 
 import os
