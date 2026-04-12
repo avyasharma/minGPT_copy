@@ -1,11 +1,22 @@
 """
 Trains a GPT to add n-digit numbers.
+<<<<<<< HEAD
 
 
 DOCUMENTACION EN CERTIFICACION PARA EJEMPLO DE MAESTRIA EN IA
 
 """
+=======
+>>>>>>> desarrollo
 
+
+DOCUMENTACION EN DESARROLLO PARA EJEMPLO DE MAESTRIA EN IA
+
+@author: omar velez
+Maestria en Inteligencia Artificial
+Universidad Yachay Tech
+
+"""
 import os
 import sys
 import json
