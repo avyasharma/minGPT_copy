@@ -8,7 +8,7 @@ https://github.com/openai/gpt-2/blob/master/src/model.py
 https://github.com/huggingface/transformers/blob/main/src/transformers/models/gpt2/modeling_gpt2.py
 """
 
-## changing
+## changing for main branch
 import math
 
 import torch
