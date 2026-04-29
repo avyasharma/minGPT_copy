@@ -145,3 +145,5 @@ Papers + some implementation notes:
 ### License
 
 MIT
+
+Lab 3 PR exercise note by Nicole.
